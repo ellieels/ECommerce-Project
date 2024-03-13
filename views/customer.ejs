@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/297392fead.js" crossorigin="anonymous"></script>
+</head>
+<body class="profile-body">
+   
+  <%- include('partials/navbar') %> 
+  
+  <div>
+    <h2 class="profile-title">Customer Profile</h2>
+    <p class="profile-text"><strong>Username:</strong> <%= user.username %></p>
+
+    <h2><%= user.username %>'s Purchase History</h2>
+    <% if (user.purchases && user.purchases.items && user.purchases.items.length > 0) { %>
+      <div class="profile-items">
+        <table class="profile-table">
+          <thead class="thead">
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+          <% user.purchases.items.forEach(item => { %>
+            <tr class="tr">
+              <td><%= item.productId.name %></td>
+              <td>$<%= item.price.toFixed(2) %></td>
+              <td><%= item.quantity %></td>
+              <td>$<%= (item.price * item.quantity).toFixed(2) %></td>
+            </tr>
+          <% }); %>
+            <tr><td><hr class="hr"></td></tr>
+            <tr>
+              <td><strong>Total Spent</strong></td>
+              <td>$<%= user.purchases.totalPrice.toFixed(2) %></td>
+            </tr>
+            <tr>
+              <td><strong>Total Purchases</strong></td>
+              <td><%= user.purchases.totalQuantity %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <% } else { %>
+      <p>No purchases yet.</p>
+    <% } %>
+    <p><a href="/" class="return-button">Products</a></p>
+    <br>
+    <p><a href="/showCart" class="return-button">Cart</a></p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Cloud",
+    "price": 35.00,
+    "stock": 10,
+    "image": "https://i.pinimg.com/474x/50/85/10/508510bbec0b9c669daf0a78497f2bc7.jpg",
+    "type": "table",
+    "shipping": 5.00
+  },
+  {
+    "name": "Orange Orb",
+    "price": 60.00,
+    "stock": 15,
+    "image": "https://i.pinimg.com/736x/5b/e0/3f/5be03f33117328b0071d1b1fc0875c82.jpg",
+    "type": "standing",
+    "shipping": 12.00
+  },
+  {
+    "name": "Bush",
+    "price": 40.00,
+    "stock": 10,
+    "image": "https://i.pinimg.com/736x/8b/e8/4d/8be84d18c505e812debdc4cd9a02fcf7.jpg",
+    "type": "hanging",
+    "shipping": 8.00
+  },
+  {
+    "name": "Melted Colors",
+    "price": 25.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/e8/ae/0e/e8ae0e76fc7498216e4ad4d572f0cf63.jpg",
+    "type": "table",
+    "shipping": 0
+  },
+  {
+    "name": "Jellyfish",
+    "price": 45.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/a5/71/ab/a571abc9916bca2157408502f1c84b74.jpg",
+    "type": "hanging",
+    "shipping": 15.00
+  },
+  {
+    "name": "Mold",
+    "price": 25.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/1b/f2/30/1bf230601306ce607cc38c38d6f4e77f.jpg",
+    "type": "table",
+    "shipping": 0
+  },
+  {
+    "name": "Glowmaster 3000",
+    "price": 35.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/e9/c5/19/e9c519f703c2c2dc00cce250ec558503.jpg",
+    "type": "table",
+    "shipping": 5.00
+  },
+  {
+    "name": "Bundt Cake",
+    "price": 25.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/736x/58/fd/68/58fd68c199d14dfcd18c55b80d5005f1.jpg",
+    "type": "table",
+    "shipping": 9.00
+  },
+  {
+    "name": "Saturn",
+    "price": 25.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/56/e5/26/56e526d795e8f86654f819857313acae.jpg",
+    "type": "hanging",
+    "shipping": 3.00
+  },
+  {
+    "name": "Floating",
+    "price": 25.00,
+    "stock": 5,
+    "image": "https://i.pinimg.com/564x/f0/2a/95/f02a955b8b2af16b4047e6a996c92ca4.jpg",
+    "type": "table",
+    "shipping": 0
+  },
+  {
+    "name": "Mushroom",
+    "price": 50.00,
+    "stock": 8,
+    "image": "https://i.pinimg.com/564x/9d/2d/b9/9d2db9513a2a8c92943030c1468ec58e.jpg",
+    "type": "standing",
+    "shipping": 10.00
+  },
+  {
+    "name": "Droplet",
+    "price": 30.00,
+    "stock": 9,
+    "image": "https://i.pinimg.com/736x/ea/0e/ca/ea0eca26550e62294507dde4402ef948.jpg",
+    "type": "hanging",
+    "shipping": 6.00
+  }
+  
+]
